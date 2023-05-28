@@ -1,0 +1,71 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* Global styles */
+  
+  .container {
+    border: black solid 1px;
+    background-color: white;
+    max-width: 500px;
+    margin: 15rem auto 0;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    direction: rtl;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  form {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+  }
+  
+  .button-classic {
+    padding: 10px 20px;
+    background-color: rgb(24, 40, 44);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .button-classic:hover {
+    background-color: #0056b3;
+  }
+  
+  /* LoginPage specific styles */
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-page .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* RegisterPage specific styles */
+  .register-page .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  

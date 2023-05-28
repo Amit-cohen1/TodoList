@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.task-card{
+    background-color: #3d3d3d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container1{    
+    color: #ffffff;
+    max-width: 70rem;
+    margin: 5rem auto 0;
+    text-align: center;
+    background-color: rgb(24, 40, 44);
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 25px;
+    border: 1px solid #73AD21;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(30,129,176);
+    background-image: url(C:\Users\User\Documents\GitHub\todolist\public\background1.jpg);
+    background-size: original;
+    direction: rtl;
+    /* background-position: 'center'; */
+}
+.task-input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.button-task{
+    margin: 5px;
+    color: black;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+ /* HomePage specific styles */
+ .home-page .logout-btn {
+    background-color: #dc3545;
+  }
+  
+  .home-page .logout-btn:hover {
+    background-color: #c82333;
+  }
+  .task-container{
+    border-bottom: #3d3d3d solid 1px;
+    margin-bottom: 1rem;
+  }
+  .task-card-done {
+    background-color: lightgreen;
+  }
+  
